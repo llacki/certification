@@ -1,0 +1,6 @@
+{
+    "user-name": "certification-admin-user",
+    "description": "certification-admin-user",
+    "password": "certification",
+    "role": ["certification-admin"]
+}
