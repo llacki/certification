@@ -1,0 +1,6 @@
+{ 
+    "privilege-name":"certification-uri",
+    "kind":"uri",
+    "action":"/",
+    "role":["certification-writer"]
+ }

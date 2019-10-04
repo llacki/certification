@@ -1,0 +1,4 @@
+{
+    "role-name": "certification-admin",
+    "role": ["certification-writer"]
+}
