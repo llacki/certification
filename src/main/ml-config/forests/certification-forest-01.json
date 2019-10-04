@@ -1,0 +1,5 @@
+{
+  "forest-name": "certification-01",
+  "host": "%%FOREST_HOST%%",
+  "database": "certification"
+}
