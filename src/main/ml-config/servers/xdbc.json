@@ -1,8 +1,0 @@
-{
-  "server-name": "certification-xdbc",
-  "server-type": "xdbc",
-  "root": "/",  
-  "port": 8004,
-  "modules-database": "%%MODULES_DATABASE%%",
-  "content-database": "certification"
-}

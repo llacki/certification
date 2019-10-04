@@ -1,0 +1,9 @@
+<xdbc-server-properties xmlns="http://marklogic.com/manage">
+  <server-name>certification-xdbc</server-name>
+  <group-name>%%GROUP%%</group-name>
+  <server-type>xdbc</server-type>
+  <root>/</root>
+  <port>8004</port>
+  <content-database>certification</content-database>
+  <modules-database>Modules</modules-database>
+</xdbc-server-properties>
