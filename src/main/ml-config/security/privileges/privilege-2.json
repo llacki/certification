@@ -1,6 +1,0 @@
-{ 
-    "privilege-name":"certification-uri2",
-    "kind":"execute",
-    "action":"http://marklogic.com/xdmp/privileges/xdmp-http-get",
-    "role":["certification-reader"]
- }
