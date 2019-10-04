@@ -1,13 +1,3 @@
-(:
-
-1. Execute the script to create a forest and a database for this unit hands-on. 
-
-For more information about the rest endpoints being used, see following resources:
-https://docs.marklogic.com/REST/POST/manage/v2/databases. 
-https://docs.marklogic.com/REST/POST/manage/v2/forests.
-
-:)
-
 xquery version "1.0-ml";
 let $config := <forest-properties xmlns="http://marklogic.com/manage">
   <forest-name>certification-01</forest-name>
@@ -27,7 +17,7 @@ let $options := <options xmlns="xdmp:http">
 
 let $response := xdmp:http-post('http://localhost:8002/manage/v2/forests?format=xml', $options)
 return if ($response//*:code/string() = "201") then
-  $config//*:name || "sec-unit-09 forest created."
+  $config//*:name || "forest created."
 else
   $response
 
@@ -56,6 +46,6 @@ let $options := <options xmlns="xdmp:http">
 
 let $response := xdmp:http-post('http://localhost:8002/manage/v2/databases?format=xml', $options)
 return if ($response//*:code/string() = "201") then
-  $config//*:name || "sec-unit-09 database created."
+  $config//*:name || "database created."
 else
   $response
